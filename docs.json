@@ -25,21 +25,6 @@
           {
             "group": "Proxy Settings",
             "pages": [
-              {
-                "group":"tab-children1",
-                "pages":[
-                  {
-                    "group":"tab-children2",
-                    "pages":[
-                       { "name": "Auth", "path": "essentials/settings"},
-                    { "name": "Deploy", "path":  "essentials/settings"}
-                    ]
-                  },
-                      { "name": "Auth", "path":  "essentials/settings" },
-                    { "name": "Deploy", "path":  "essentials/settings"}
-                ]
-              }
-            
             ]
           },
           {
@@ -94,21 +79,8 @@
           {
             "group": "Proxy Settings",
             "pages": [
-    
-               {
-                "group":"tab-children1",
-                "pages":[
-                  {
-                    "group":"tab-children2",
-                    "pages":[
-                       { "name": "Auth", "path":  "essentials/settings" },
-                    { "name": "Deploy", "path":  "essentials/settings" }
-                    ]
-                  },
-                      { "name": "Auth", "path":  "essentials/settings" },
-                    { "name": "Deploy", "path":  "essentials/settings" }
-                ]
-              }
+      "essentials/settings",
+              "essentials/settings"
             ]
           },
           {
