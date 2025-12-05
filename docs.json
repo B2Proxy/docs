@@ -65,8 +65,63 @@
         ]
       }
     ]
+      },
+            {
+        "language": "zh",    
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Proxy Settings",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Advanced Features Guide",
+            "pages": [
+              "advanced-features-guide/cdkey-generation-redemption",
+              "advanced-features-guide/referral-program"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "anti-detect-browser"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
       }
-      
+    ]
+      }
     ]
       },
   "logo": {
