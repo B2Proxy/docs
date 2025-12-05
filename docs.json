@@ -28,6 +28,13 @@
               {
                 "group":"tab-children1",
                 "pages":[
+                  {
+                    "group":"tab-children2",
+                    "pages":[
+                       { "name": "Auth", "path": "/guides/advanced/auth" },
+                    { "name": "Deploy", "path": "/guides/advanced/deploy" }
+                    ]
+                  },
                       { "name": "Auth", "path": "/guides/advanced/auth" },
                     { "name": "Deploy", "path": "/guides/advanced/deploy" }
                 ]
