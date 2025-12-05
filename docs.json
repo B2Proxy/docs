@@ -25,8 +25,14 @@
           {
             "group": "Proxy Settings",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              {
+                "group":"tab-children1",
+                "pages":[
+                      { "name": "Auth", "path": "/guides/advanced/auth" },
+                    { "name": "Deploy", "path": "/guides/advanced/deploy" }
+                ]
+              }
+            
             ]
           },
           {
