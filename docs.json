@@ -9,40 +9,37 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "languages": [
+      {
+        "language": "en",    
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Proxy Settings",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Advanced Features Guide",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "advanced-features-guide/cdkey-generation-redemption",
+              "advanced-features-guide/referral-program"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Integrations",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "anti-detect-browser"
             ]
           }
         ]
@@ -68,7 +65,10 @@
         ]
       }
     ]
-  },
+      }
+      
+    ]
+      },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
