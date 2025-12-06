@@ -108,8 +108,35 @@
           {
             "group": "Proxy Settings",
             "pages": [
-      "essentials/settings",
-              "essentials/settings"
+               {
+            "group": "Residential",
+            "pages": [
+              "proxy-settings/residential/username-password",
+              "proxy-settings/residential/api-proxy-extraction",
+              "proxy-settings/residential/traffic-management"
+            ]
+          },
+              {
+            "group": "Unlimited",
+            "pages": [
+              "proxy-settings/unlimited/username-password",
+              "proxy-settings/unlimited/api-proxy-extraction"
+            ]
+          },
+              {
+            "group": "ISP(Static Residential)",
+            "pages": [
+              "proxy-settings/isp/username-password",
+              "proxy-settings/isp/ip-auto-renewal"
+            ]
+          },
+              {
+            "group": "Proxy Authentication Management",
+            "pages": [
+              "proxy-settings/proxy-authentication-management/ip-whitelist",
+              "proxy-settings/proxy-authentication-management/sub-user"
+            ]
+          }
             ]
           },
           {
