@@ -82,7 +82,7 @@
           {
             "group": "概述",
             "pages": [
-              "index"
+              "zh/index"
             ]
           },
           {
@@ -91,30 +91,30 @@
                {
             "group": "住宅",
             "pages": [
-              "proxy-settings/residential/username-password",
-              "proxy-settings/residential/api-proxy-extraction",
-              "proxy-settings/residential/traffic-management"
+              "zh/proxy-settings/residential/username-password",
+              "zh/proxy-settings/residential/api-proxy-extraction",
+              "zh/proxy-settings/residential/traffic-management"
             ]
           },
               {
             "group": "不限量",
             "pages": [
-              "proxy-settings/unlimited/username-password",
-              "proxy-settings/unlimited/api-proxy-extraction"
+              "zh/proxy-settings/unlimited/username-password",
+              "zh/proxy-settings/unlimited/api-proxy-extraction"
             ]
           },
               {
             "group": "ISP(静态住宅)",
             "pages": [
-              "proxy-settings/isp/username-password",
-              "proxy-settings/isp/ip-auto-renewal"
+              "zh/proxy-settings/isp/username-password",
+              "zh/proxy-settings/isp/ip-auto-renewal"
             ]
           },
               {
             "group": "代理认证管理",
             "pages": [
-              "proxy-settings/proxy-authentication-management/ip-whitelist",
-              "proxy-settings/proxy-authentication-management/sub-user"
+              "zh/proxy-settings/proxy-authentication-management/ip-whitelist",
+              "zh/proxy-settings/proxy-authentication-management/sub-user"
             ]
           }
             ]
@@ -122,14 +122,14 @@
           {
             "group": "高级功能指南",
             "pages": [
-              "advanced-features-guide/cdkey-generation-redemption",
-              "advanced-features-guide/referral-program"
+              "zh/advanced-features-guide/cdkey-generation-redemption",
+              "zh/advanced-features-guide/referral-program"
             ]
           },
           {
             "group": "集成",
             "pages": [
-              "anti-detect-browser"
+              "zh/integrations/anti-detect-browser"
             ]
           }
         ]
