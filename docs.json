@@ -23,27 +23,35 @@
             ]
           },
           {
-            "group": "Proxy Settings",
+            "groups": "Proxy Settings",
             "pages": [
                {
-            "group": "Advanced Features Guide",
+            "group": "Residential",
             "pages": [
-              "advanced-features-guide/cdkey-generation-redemption",
-              "advanced-features-guide/referral-program"
+              "proxy-settings/residential/username-password",
+              "proxy-settings/residential/api-proxy-extraction",
+              "proxy-settings/residential/traffic-management"
             ]
           },
               {
-            "group": "Advanced Features Guide",
+            "group": "Unlimited",
             "pages": [
-              "advanced-features-guide/cdkey-generation-redemption",
-              "advanced-features-guide/referral-program"
+              "proxy-settings/unlimited/username-password",
+              "proxy-settings/unlimited/api-proxy-extraction"
             ]
           },
               {
-            "group": "Advanced Features Guide",
+            "group": "ISP(Static Residential)",
             "pages": [
-              "advanced-features-guide/cdkey-generation-redemption",
-              "advanced-features-guide/referral-program"
+              "proxy-settings/isp/username-password",
+              "proxy-settings/isp/ip-auto-renewal"
+            ]
+          },
+              {
+            "group": "Proxy Authentication Management",
+            "pages": [
+              "proxy-settings/proxy-authentication-management/ip-whitelist",
+              "proxy-settings/proxy-authentication-management/sub-user"
             ]
           }
             ]
