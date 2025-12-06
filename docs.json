@@ -70,26 +70,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
     ]
       },
@@ -109,7 +89,7 @@
             "group": "代理设置",
             "pages": [
                {
-            "group": "Residential",
+            "group": "住宅",
             "pages": [
               "proxy-settings/residential/username-password",
               "proxy-settings/residential/api-proxy-extraction",
@@ -117,21 +97,21 @@
             ]
           },
               {
-            "group": "Unlimited",
+            "group": "不限量",
             "pages": [
               "proxy-settings/unlimited/username-password",
               "proxy-settings/unlimited/api-proxy-extraction"
             ]
           },
               {
-            "group": "ISP(Static Residential)",
+            "group": "ISP(静态住宅)",
             "pages": [
               "proxy-settings/isp/username-password",
               "proxy-settings/isp/ip-auto-renewal"
             ]
           },
               {
-            "group": "Proxy Authentication Management",
+            "group": "代理认证管理",
             "pages": [
               "proxy-settings/proxy-authentication-management/ip-whitelist",
               "proxy-settings/proxy-authentication-management/sub-user"
@@ -150,26 +130,6 @@
             "group": "集成",
             "pages": [
               "anti-detect-browser"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
