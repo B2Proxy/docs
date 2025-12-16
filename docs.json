@@ -71,9 +71,13 @@
           }
         ]
       },
+          {
+            "tab": "Pricing",
+            "href": "https://www.b2proxy.com/pricing/residential-proxies"
+          },
          {
             "tab": "FAQ",
-            "href": "https://www.b2proxy.com/contactus"
+            "href": "https://www.b2proxy.com/faq"
           },
           {
             "tab": "Support",
@@ -143,14 +147,16 @@
         ]
       },
           {
-            "tab": "FAQ",
-            "pages": [
-              "faq/faq"
-            ]
+            "tab": "购买套餐",
+            "href": "https://www.b2proxy.com/zh-CN/pricing/residential-proxies"
           },
           {
-            "tab": "Support",
-            "href": "https://www.lokiproxy.com/contactus"
+            "tab": "常见问题",
+            "href": "https://www.b2proxy.com/zh-CN/faq"
+          },
+          {
+            "tab": "联系我们",
+            "href": "https://www.b2proxy.com/zh-CN/contactus"
           }
     ]
   },
