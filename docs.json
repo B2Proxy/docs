@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "mint",
   "name": "Help Center-B2Proxy",
   "colors": {
     "primary": "#4088FF",
