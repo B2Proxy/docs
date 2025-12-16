@@ -81,7 +81,7 @@
           },
           {
             "tab": "Support",
-            "href": "https://www.b2proxy.com/contactus"
+            "href": "https://t.me/B2ProxyService"
           }
     ]      
       },
@@ -155,8 +155,8 @@
             "href": "https://www.b2proxy.com/zh-CN/faq"
           },
           {
-            "tab": "联系我们",
-            "href": "https://www.b2proxy.com/zh-CN/contactus"
+            "tab": "联系客服",
+            "href": "https://t.me/B2ProxyService"
           }
     ]
       }
@@ -170,8 +170,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "https://t.me/B2ProxyService"
+        "label": "Visit B2Proxy",
+        "href": "https://www.b2proxy.com"
       }
     ],
     "primary": {
