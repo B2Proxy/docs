@@ -94,69 +94,6 @@
             }
           ]
         }        
-      },
-      {
-        "language": "zh",    
-    "tabs": [
-      {
-        "tab": "用户指南",
-        "groups": [
-          {
-            "group": "概述",
-            "pages": [
-              "zh/index"
-            ]
-          },
-          {
-            "group": "代理设置",
-            "pages": [
-               {
-            "group": "住宅",
-            "pages": [
-              "zh/proxy-settings/residential/username-password",
-              "zh/proxy-settings/residential/api-proxy-extraction",
-              "zh/proxy-settings/residential/traffic-management"
-            ]
-          },
-              {
-            "group": "不限量",
-            "pages": [
-              "zh/proxy-settings/unlimited/username-password",
-              "zh/proxy-settings/unlimited/api-proxy-extraction"
-            ]
-          },
-              {
-            "group": "ISP(静态住宅)",
-            "pages": [
-              "zh/proxy-settings/isp/username-password",
-              "zh/proxy-settings/isp/ip-auto-renewal"
-            ]
-          },
-              {
-            "group": "代理认证管理",
-            "pages": [
-              "zh/proxy-settings/proxy-authentication-management/ip-whitelist",
-              "zh/proxy-settings/proxy-authentication-management/sub-user"
-            ]
-          }
-            ]
-          },
-          {
-            "group": "高级功能指南",
-            "pages": [
-              "zh/advanced-features-guide/cdkey-generation-redemption",
-              "zh/advanced-features-guide/referral-program"
-            ]
-          },
-          {
-            "group": "集成",
-            "pages": [
-              "zh/integrations/anti-detect-browser"
-            ]
-          }
-        ]
-      }
-    ]
       }
     ]
   },
