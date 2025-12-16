@@ -23,7 +23,7 @@
             ]
           },
           {
-            "groups": "Proxy Settings",
+            "group": "Proxy Settings",
             "pages": [
                {
             "group": "Residential",
