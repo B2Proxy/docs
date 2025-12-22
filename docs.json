@@ -141,12 +141,9 @@
           {
             "group": "集成",
             "pages": [
-               {
-            "group": "指纹浏览器",
-            "pages": [
-              "zh/integrations/anti-detect-browser"
-            ]
-          },
+             "zh/integrations/anti-detect-browser"
+            ],
+            "pages": [            
               {
             "group": "代理管理器",
             "pages": [
