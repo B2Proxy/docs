@@ -1,0 +1,60 @@
+---
+title: "How to Use Residential Proxies via APl Extraction?"
+sidebarTitle: "API Proxy Extraction"
+---
+
+I. Basic Setup Steps
+
+1. Add IP Whitelist
+
+·Navigate to 「IP Whitelist」 section.
+
+·Note: API calls will be blocked for non-whitelisted IPs.
+
+2. Select Proxy Location
+
+·Country/Region: Choose from dropdown (e.g., USA, Japan).
+
+3. Set Proxy Quantity
+
+·Enter required number of IPs (e.g., 100).
+
+4. Protocol & Format Configuration
+
+·Protocol: Default HTTP(S), optional SOCKS5.
+
+·Format: DefaultTXT (one IP:port per line), optional JSON.
+
+·Separator: Default line break.
+
+5. Generate API URL
+
+Click 「Generate URL」 to get a unique API link.
+
+II. Retrieve Proxies via API
+
+① Direct Access
+
+Open the API URL in browser/tools to get:
+
+1.1.1.1:8888
+
+2.2.2.2:8888
+
+...
+
+② Programmatic Call (Python Example)
+
+import requests
+
+api_url = "YOUR_API_LINK"
+
+response = requests.get(api_url)
+
+proxies = response.text.splitlines()  # List of proxies
+
+⚠️ Important Notes
+
+·Rate Limit: 1 request/second.
+
+·Proxy Validity: 24 hours (default). Regenerate after expiry.
