@@ -141,16 +141,14 @@
           {
             "group": "集成",
             "pages": [
-             "zh/integrations/anti-detect-browser"
-            ],
-            "pages": [            
+             "zh/integrations/anti-detect-browser",
               {
             "group": "代理管理器",
             "pages": [
               "zh/integrations/proxy-manager/v2rayng",
               "zh/integrations/proxy-manager/anxray"
             ]
-          }
+          }              
             ]
           }
         ]
