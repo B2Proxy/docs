@@ -101,7 +101,7 @@
             "group": "代理设置",
             "pages": [
                {
-            "group": "住宅",
+            "group": "动态住宅代理",
             "pages": [
               "zh/proxy-settings/residential/username-password",
               "zh/proxy-settings/residential/api-proxy-extraction",
@@ -109,14 +109,14 @@
             ]
           },
               {
-            "group": "不限量",
+            "group": "不限量住宅代理",
             "pages": [
               "zh/proxy-settings/unlimited/username-password",
               "zh/proxy-settings/unlimited/api-proxy-extraction"
             ]
           },
               {
-            "group": "ISP(静态住宅)",
+            "group": "ISP(静态住宅)代理",
             "pages": [
               "zh/proxy-settings/isp/username-password",
               "zh/proxy-settings/isp/ip-auto-renewal"
