@@ -1,179 +1,18 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
+  "$schema": "https://mintlify.com/docs.json",
   "name": "Help Center-B2Proxy",
   "colors": {
     "primary": "#4088FF",
     "light": "#4088FF",
     "dark": "#4088FF"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "languages": [
-      {
-        "language": "en",    
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Proxy Settings",
-            "pages": [
-               {
-            "group": "Residential",
-            "pages": [
-              "proxy-settings/residential/username-password",
-              "proxy-settings/residential/api-proxy-extraction",
-              "proxy-settings/residential/traffic-management"
-            ]
-          },
-              {
-            "group": "Unlimited",
-            "pages": [
-              "proxy-settings/unlimited/username-password",
-              "proxy-settings/unlimited/api-proxy-extraction"
-            ]
-          },
-              {
-            "group": "ISP(Static Residential)",
-            "pages": [
-              "proxy-settings/isp/username-password",
-              "proxy-settings/isp/ip-auto-renewal"
-            ]
-          },
-              {
-            "group": "Proxy Authentication Management",
-            "pages": [
-              "proxy-settings/proxy-authentication-management/ip-whitelist",
-              "proxy-settings/proxy-authentication-management/sub-user"
-            ]
-          }
-            ]
-          },
-          {
-            "group": "Advanced Features Guide",
-            "pages": [
-              "advanced-features-guide/cdkey-generation-redemption",
-              "advanced-features-guide/referral-program"
-            ]
-          },
-          {
-            "group": "Integrations",
-            "pages": [
-              "integrations/anti-detect-browser"
-            ]
-          }
-        ]
-      },
-          {
-            "tab": "Pricing",
-            "href": "https://www.b2proxy.com/pricing/residential-proxies"
-          },
-         {
-            "tab": "FAQ",
-            "href": "https://www.b2proxy.com/faq"
-          },
-          {
-            "tab": "Support",
-            "href": "https://t.me/B2ProxyService"
-          }
-    ]      
-      },
-      {
-        "language": "zh",    
-    "tabs": [
-      {
-        "tab": "用户指南",
-        "groups": [
-          {
-            "group": "概述",
-            "pages": [
-              "zh/index"
-            ]
-          },
-          {
-            "group": "代理设置",
-            "pages": [
-               {
-            "group": "动态住宅代理",
-            "pages": [
-              "zh/proxy-settings/residential/username-password",
-              "zh/proxy-settings/residential/api-proxy-extraction",
-              "zh/proxy-settings/residential/traffic-management"
-            ]
-          },
-              {
-            "group": "不限量住宅代理",
-            "pages": [
-              "zh/proxy-settings/unlimited/username-password",
-              "zh/proxy-settings/unlimited/api-proxy-extraction"
-            ]
-          },
-              {
-            "group": "ISP(静态住宅)代理",
-            "pages": [
-              "zh/proxy-settings/isp/username-password",
-              "zh/proxy-settings/isp/ip-auto-renewal"
-            ]
-          },
-              {
-            "group": "代理认证管理",
-            "pages": [
-              "zh/proxy-settings/proxy-authentication-management/ip-whitelist",
-              "zh/proxy-settings/proxy-authentication-management/sub-user"
-            ]
-          }
-            ]
-          },
-          {
-            "group": "高级功能指南",
-            "pages": [
-              "zh/advanced-features-guide/cdkey-generation-redemption",
-              "zh/advanced-features-guide/referral-program"
-            ]
-          },
-          {
-            "group": "集成",
-            "pages": [
-             "zh/integrations/anti-detect-browser",
-              {
-            "group": "代理管理器",
-            "pages": [
-              "zh/integrations/proxy-manager/v2rayng",
-              "zh/integrations/proxy-manager/anxray"
-            ]
-          }              
-            ]
-          }
-        ]
-      },
-          {
-            "tab": "购买套餐",
-            "href": "https://www.b2proxy.com/zh-CN/pricing/residential-proxies"
-          },
-          {
-            "tab": "常见问题",
-            "href": "https://www.b2proxy.com/zh-CN/faq"
-          },
-          {
-            "tab": "联系客服",
-            "href": "https://t.me/B2ProxyService"
-          }
-    ]
-      }
-    ]
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg",
     "href": "https://www.b2proxy.com"
   },
+  "favicon": "/favicon.svg",
   "navbar": {
     "links": [
       {
@@ -187,17 +26,166 @@
       "href": "https://dashboard.b2proxy.com"
     }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "index"
+                ]
+              },
+              {
+                "group": "Proxy Settings",
+                "pages": [
+                  {
+                    "group": "Residential",
+                    "pages": [
+                      "proxy-settings/residential/username-password",
+                      "proxy-settings/residential/api-proxy-extraction",
+                      "proxy-settings/residential/traffic-management"
+                    ]
+                  },
+                  {
+                    "group": "Unlimited",
+                    "pages": [
+                      "proxy-settings/unlimited/username-password",
+                      "proxy-settings/unlimited/api-proxy-extraction"
+                    ]
+                  },
+                  {
+                    "group": "ISP(Static Residential)",
+                    "pages": [
+                      "proxy-settings/isp/username-password",
+                      "proxy-settings/isp/ip-auto-renewal"
+                    ]
+                  },
+                  {
+                    "group": "Proxy Authentication Management",
+                    "pages": [
+                      "proxy-settings/proxy-authentication-management/ip-whitelist",
+                      "proxy-settings/proxy-authentication-management/sub-user"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Advanced Features Guide",
+                "pages": [
+                  "advanced-features-guide/cdkey-generation-redemption",
+                  "advanced-features-guide/referral-program"
+                ]
+              },
+              {
+                "group": "Integrations",
+                "pages": [
+                  "integrations/anti-detect-browser"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Pricing",
+            "href": "https://www.b2proxy.com/pricing/residential-proxies"
+          },
+          {
+            "tab": "FAQ",
+            "href": "https://www.b2proxy.com/faq"
+          },
+          {
+            "tab": "Support",
+            "href": "https://t.me/B2ProxyService"
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "tabs": [
+          {
+            "tab": "用户指南",
+            "groups": [
+              {
+                "group": "概述",
+                "pages": [
+                  "zh/index"
+                ]
+              },
+              {
+                "group": "代理设置",
+                "pages": [
+                  {
+                    "group": "动态住宅代理",
+                    "pages": [
+                      "zh/proxy-settings/residential/username-password",
+                      "zh/proxy-settings/residential/api-proxy-extraction",
+                      "zh/proxy-settings/residential/traffic-management"
+                    ]
+                  },
+                  {
+                    "group": "不限量住宅代理",
+                    "pages": [
+                      "zh/proxy-settings/unlimited/username-password",
+                      "zh/proxy-settings/unlimited/api-proxy-extraction"
+                    ]
+                  },
+                  {
+                    "group": "ISP(静态住宅)代理",
+                    "pages": [
+                      "zh/proxy-settings/isp/username-password",
+                      "zh/proxy-settings/isp/ip-auto-renewal"
+                    ]
+                  },
+                  {
+                    "group": "代理认证管理",
+                    "pages": [
+                      "zh/proxy-settings/proxy-authentication-management/ip-whitelist",
+                      "zh/proxy-settings/proxy-authentication-management/sub-user"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "高级功能指南",
+                "pages": [
+                  "zh/advanced-features-guide/cdkey-generation-redemption",
+                  "zh/advanced-features-guide/referral-program"
+                ]
+              },
+              {
+                "group": "集成",
+                "pages": [
+                  "zh/integrations/anti-detect-browser",
+                  {
+                    "group": "代理管理器",
+                    "pages": [
+                      "zh/integrations/proxy-manager/v2rayng",
+                      "zh/integrations/proxy-manager/anxray"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "购买套餐",
+            "href": "https://www.b2proxy.com/zh-CN/pricing/residential-proxies"
+          },
+          {
+            "tab": "常见问题",
+            "href": "https://www.b2proxy.com/zh-CN/faq"
+          },
+          {
+            "tab": "联系客服",
+            "href": "https://t.me/B2ProxyService"
+          }
+        ]
+      }
+    ]
   },
   "footer": {
     "socials": {
@@ -206,5 +194,17 @@
       "youtube": "https://www.youtube.com/@b2proxy",
       "telegram": "https://t.me/b2_proxy"
     }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   }
 }
