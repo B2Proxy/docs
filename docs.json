@@ -164,7 +164,9 @@
                     "group": "代理管理器",
                     "pages": [
                       "zh/integrations/proxy-manager/v2rayng",
-                      "zh/integrations/proxy-manager/anxray"
+                      "zh/integrations/proxy-manager/anxray",
+                      "zh/integrations/proxy-manager/v2rayn",
+                      "zh/integrations/proxy-manager/shadowrocket"
                     ]
                   }
                 ]
