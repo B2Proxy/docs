@@ -3,47 +3,73 @@ title: "How to Use Unlimited Residential Proxies via APl Extraction?"
 sidebarTitle: "API Proxy Extraction"
 ---
 
+B2Proxy supports the extraction of unlimited residential proxies via the **API method (authenticated by IP whitelisting)**, eliminating the need for usernames and passwords and offering a more secure and stable configuration. This article explains how to add whitelisted IPs and successfully extract unlimited residential proxies through the API, helping you quickly complete the setup and start using the service.
+
 ## I. Basic Setup Steps
 
 ### 1. Add IP Whitelist
 
-·Navigate to 「IP Whitelist」 section.
+![Resi Api](/images/resi-api.png)
 
-·Note: API calls will be blocked for non-whitelisted IPs.
+Go to "IP Whitelist", click "Add Whitelist", and enter the IP address of the network environment where you need to use residential proxies.
 
-### 2. Set Proxy Quantity
+<Warning>
+  Note: API calls will be blocked for non-whitelisted IPs.
+</Warning>
 
-·Enter required number of IPs (e.g., 100).
+### 2. Set the Number of Proxies
+
+Enter required number of IPs (e.g., 100).
 
 ### 3. Protocol & Format Configuration
 
-·Protocol: Default HTTP(S), optional SOCKS5.
+Protocol: Default HTTP(S), optional SOCKS5.
 
-·Format: DefaultTXT (one IP:port per line), optional JSON.
+Format: Default TXT (one IP:port per line), optional JSON.
 
-·Separator: Default line break.
+Separator: Default line break.
+
+### 4. Set Session Type
+
+Rotating IP: Auto-rotates IP per request (ideal for scraping/data collection).
+
+Sticky IP: The IP remains fixed for a period of time (5 minutes by default), suits account management).
+
+<Tip>
+  When selecting a sticky IP, choose “Yes” in the [Change IP in Advance] option to allow the system to automatically switch the IP earlier based on its actual available time.\
+  If you choose “No,” the IP will remain unchanged during the sticky session and can only be switched after the session ends.
+</Tip>
+
+### 5. Select Hostname
+
+Automatically selects the nearest server based on your network IP, or you can manually choose other nodes.
 
 ### 4. Generate API URL
 
 Click 「Generate URL」 to get a unique API link.
 
-## II. Retrieve Proxies via API
+![Resi Api1](/images/resi-api1.png)
 
-### Direct Access
+## II. Call the API to Get Proxies
 
-Open the API URL in browser/tools to get:
+Open the API link in your browser or configure it in your tool. A correct response example would be:
 
 1.1.1.1:8888
 
 2.2.2.2:8888
 
-...
+…
 
-### Programmatic Call
+If the following message appears, it means the whitelist was not added correctly. Please go back to step one and check.
+
+```
+IP Whitelist Check Failed
+```
 
 <Warning>
-  Important Notes
+  Rate Limit: 1 request/second.
+</Warning>
 
-  1. Rate Limit: 1 request/second.
-  2. Proxy Validity: 24 hours (default). Regenerate after expiry.
+<Warning>
+  Proxy Validity: 24 hours (default). Regenerate after expiry.
 </Warning>
