@@ -3,25 +3,21 @@ sidebarTitle: "IP Whitelist"
 title: "IP Whitelist"
 ---
 
-I. Overview
+IP whitelisting is a security authentication method provided by B2Proxy, which effectively prevents unauthorized access by allowing only authorized IP addresses to connect to the proxy service.
 
-The IP Whitelist is a security feature that restricts proxy access to only authorized IP addresses, preventing unauthorized usage.
+When using B2Proxy's API to extract proxies, you only need to add the IP addresses (local or server) from which you intend to use the proxies in the dashboard to complete the whitelist configuration. Once configured, only IPs within the whitelist can successfully extract and use the proxies.
 
-II. Step-by-Step Instructions
+This tutorial will guide you through adding and managing whitelisted IPs, helping you use the proxy service quickly and securely.
 
-1. Add Whitelisted IPs
+## I. Add Whitelisted IPs
 
-1.1. Log in → Go to 「Whitelist」 section.
+1. Log in → Go to 「Whitelist」 section.
+2. Click 「Add Whitelist」. Enter:
 
-1.2. Click 「Add Whitelist」.
+- IP Address (Required): IPv4 format only (e.g., 123.123.123.123).
+- Notes (Optional): Label the purpose (e.g., "Finance Dept Server").
 
-1.3. Enter:
-
-·IP Address (Required): IPv4 format only (e.g., 123.123.123.123).
-
-·Notes (Optional): Label the purpose (e.g., "Finance Dept Server").
-
-1.4. Click 「Confirm」.
+3. Click 「Confirm」.
 
 Important:
 
@@ -29,13 +25,13 @@ Important:
 
 ·Do not add public server IPs (security risk).
 
-2. Edit Whitelist
+## II. Edit Whitelist
 
 ·Single IP: Click 「Notes」 → Edit → Submit.
 
 ·Bulk Edit: Select multiple IPs → Click 「Batch Notes」 → Update.
 
-3. Delete Whitelist
+## III. Delete Whitelist
 
 ·Single IP: Click 「Delete」.
 
