@@ -3,51 +3,77 @@ title: "How to Use Residential Proxies via APl Extraction?"
 sidebarTitle: "API Proxy Extraction"
 ---
 
+B2Proxy offers a simple and user-friendly **API extraction method (authenticated via IP whitelisting)** to help users quickly obtain and use dynamic residential proxies. Even first-time users of proxy services can easily complete the configuration. This article will guide you step-by-step on how to add a whitelisted IP in the dashboard and successfully extract dynamic residential proxies via the API, helping you quickly master the entire workflow.
+
 ## I. Basic Setup Steps
 
 ### 1. Add IP Whitelist
 
-·Navigate to 「IP Whitelist」 section.
+![Resi Api](/images/resi-api.png)
 
-·Note: API calls will be blocked for non-whitelisted IPs.
+Go to "IP Whitelist", click "Add Whitelist", and enter the IP address of the network environment where you need to use residential proxies.
+
+<Warning>
+  Note: API calls will be blocked for non-whitelisted IPs.
+</Warning>
 
 ### 2. Select Proxy Location
 
-·Country/Region: Choose from dropdown (e.g., USA, Japan).
+Country/Region: Choose from dropdown (e.g., US).
 
-### 3. Set Proxy Quantity
+### 3. Set the Number of Proxies
 
-·Enter required number of IPs (e.g., 100).
+Enter required number of IPs (e.g., 100).
 
 ### 4. Protocol & Format Configuration
 
-·Protocol: Default HTTP(S), optional SOCKS5.
+Protocol: Default HTTP(S), optional SOCKS5.
 
-·Format: DefaultTXT (one IP:port per line), optional JSON.
+Format: Default TXT (one IP:PORT per line), optional JSON.
 
-·Separator: Default line break.
+Separator: Default line break.
 
-### 5. Generate API URL
+### 5. Set Session Type
 
-Click 「Generate URL」 to get a unique API link.
+Rotating IP: Auto-rotates IP per request (ideal for scraping/data collection).
 
-## II. Retrieve Proxies via API
+Sticky IP: The IP remains fixed for a period of time (5 minutes by default), suits account management).
 
-### 1. Direct Access
+<Tip>
+  When selecting a sticky IP, choose “Yes” in the [Change IP in Advance] option to allow the system to automatically switch the IP earlier based on its actual available time.\
+  If you choose “No,” the IP will remain unchanged during the sticky session and can only be switched after the session ends.
+</Tip>
 
-Open the API URL in browser/tools to get:
+### 6. Select Hostname
+
+Automatically selects the nearest server based on your network IP, or you can manually choose other nodes.
+
+### 7. Generate API URL
+
+Click "Generate URL" to get a unique API URL.
+
+![Resi Api1](/images/resi-api1.png)
+
+## II. Call the API to Get Proxies
+
+Open the API link in your browser or configure it in your tool. A correct response example would be:
 
 1.1.1.1:8888
 
 2.2.2.2:8888
 
-...
+…
 
-### 2. Programmatic Call
+If the following message appears, it means the whitelist was not added correctly. Please go back to step one and check.
+
+```
+IP Whitelist Check Failed
+```
 
 <Warning>
-  Important Notes
+  Rate Limit: 1 request/second.
+</Warning>
 
-  1. Rate Limit: 1 request/second.
-  2. Proxy Validity: 24 hours (default). Regenerate after expiry.
+<Warning>
+  Proxy Validity: 24 hours (default). Regenerate after expiry.
 </Warning>
