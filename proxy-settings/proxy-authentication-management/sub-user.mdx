@@ -3,54 +3,47 @@ title: "Sub-user"
 sidebarTitle: "Sub-user"
 ---
 
-I. Overview
+The sub-user feature allows the main account to allocate proxy resources (traffic) to team members and control their usage permissions, making it ideal for enterprise or team collaboration.
 
-The Sub-User feature allows main accounts to allocate proxy resources (traffic) to team members with controlled permissions, ideal for enterprise or team collaboration.
+B2Proxy's **Sub-user Feature** enables the main account to flexibly distribute proxy resources to team members while managing their access rights. Through sub-users, you can set individual traffic limits for each member, monitor their usage, and adjust resource allocations as needed.
 
-II. Step-by-Step Instructions
+This article will explain how to create and manage sub-users, as well as how to assign traffic and permissions to them.
 
-1. Create Sub-User
+## I. Create Sub-User
 
-1.1. Log in as main account → Navigate to 「Sub-Users」.
+1. Log in as main account → Navigate to 「Sub-Users」.
+2. Click 「Add Sub-User」.
 
-1.2. Click 「Add Sub-User」.
+- Username (Required): For proxy authentication.
+- Password (Required): Use a strong password.
+- Traffic Limit: Set quota (e.g., 10GB).
+- Remark (Optional): Label purpose.
 
-1.3. Fill in:
+3. Click 「Confirm」.
 
-·Username (Required): For proxy authentication (e.g., team_dev1).
+<Warning>
+  Note: The default main user (sp) cannot be deleted—only password/quota can be modified.
+</Warning>
 
-·Password (Required): Use a strong password (e.g., A1b2@C3d4!).
+## II. Edit Sub-User
 
-·Traffic Limit: Set quota (e.g., 10GB).
+1. Update Quota/Password: Click 「Edit」 → Modify → Submit.
+2. Enable/Disable: Toggle status (gray = disabled).
 
-·Notes (Optional): Label purpose (e.g., "Marketing Team").
+## III. Delete Sub-User
 
-1.4. Click 「Confirm」.
+Click the "Delete" button to the right of the sub-account → Confirm the action.
 
-Note:
+## <Icon icon="stars" iconType="regular" color="#3a6fe5" size={30} />FAQ
 
-The default main user (sp) cannot be deleted—only password/quota can be modified.
+<Tip>
+  **Q1: Can sub-users access the main dashboard?**
 
-2. Edit Sub-User
+  No. Sub-users only authenticate proxy connections—no dashboard access.
+</Tip>
 
-·Update Quota/Password: Click 「Edit」 → Modify → Submit.
+<Tip>
+  **Q2: How to prevent password leaks?**
 
-·Enable/Disable: Toggle status (gray = disabled).
-
-3. Delete Sub-User
-
-·Click 「Delete」 → Confirm.
-
-·Deleted sub-user quotas return to the main account.
-
-III. FAQ
-
-Q1: Can sub-users access the main dashboard?
-
-·No. Sub-users only authenticate proxy connections—no dashboard access.
-
-Q2: How to prevent password leaks?
-
-·Reset passwords regularly.
-
-·Set strict traffic limits to minimize risks.
+  Reset passwords regularly. Set strict traffic limits to minimize risks.
+</Tip>
