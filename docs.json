@@ -64,7 +64,6 @@
                   {
                     "group": "ISP(Static Residential)",
                     "pages": [
-                      "proxy-settings/isp/by-region",
                       "proxy-settings/isp/username-password",
                       "proxy-settings/isp/ip-auto-renewal"
                     ]
@@ -140,7 +139,6 @@
                   {
                     "group": "ISP(静态住宅)代理",
                     "pages": [
-                      "zh/proxy-settings/isp/by-region",
                       "zh/proxy-settings/isp/username-password",
                       "zh/proxy-settings/isp/ip-auto-renewal"
                     ]
