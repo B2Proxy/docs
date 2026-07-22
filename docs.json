@@ -65,7 +65,7 @@
                     "group": "ISP(Static Residential)",
                     "pages": [
                       "proxy-settings/isp/by-region",
-                      "proxy-settings/isp/username-password",
+                      "proxy-settings/isp/by-IP",
                       "proxy-settings/isp/ip-auto-renewal"
                     ]
                   },
