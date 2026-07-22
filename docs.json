@@ -140,8 +140,8 @@
                   {
                     "group": "ISP(静态住宅)代理",
                     "pages": [
-                      "zh/proxy-settings/isp/file",
-                      "zh/proxy-settings/isp/username-password",
+                      "zh/proxy-settings/isp/by-region",
+                      "zh/proxy-settings/isp/by-IP",
                       "zh/proxy-settings/isp/ip-auto-renewal"
                     ]
                   },
